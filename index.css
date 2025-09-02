@@ -501,12 +501,14 @@
   align-items: end;
   justify-content: center;
   padding-bottom: 36px;
+  box-sizing: border-box;
 }
 .center2 {
   display: flex;
   align-items: start;
   justify-content: center;
   padding-top: 36px;
+  box-sizing: border-box;
 }
 .lmore {
   width: 107px;
@@ -524,12 +526,14 @@
   justify-content: space-between;
   padding-bottom: 36px;
   padding-top: 36px;
+  box-sizing: border-box;
 }
 .center5 {
   display: flex;
   align-items: end;
   justify-content: center;
   padding-bottom: 47px;
+  box-sizing: border-box;
 }
 .link {
   width: 274px;
@@ -540,7 +544,31 @@
   width: fit-content;
   display: flex;
   justify-content: space-between;
-  gap: 16px;
+  gap: 12px;
+}
+.zrg1 {
+  background-image: url("./zrg1.jpg");
+}
+.zrg2 {
+  background-image: url("./zrg2.jpg");
+}
+.zrg3 {
+  background-image: url("./zrg3.jpg");
+}
+.zrg4 {
+  background-image: url("./zrg4.jpg");
+}
+.zrg5 {
+  background-image: url("./zrg5.jpg");
+}
+.zrg6 {
+  background-image: url("./zrg6.jpg");
+}
+.zrg7 {
+  background-image: url("./zrg7.jpg");
+}
+.zrg8 {
+  background-image: url("./zrg8.jpg");
 }
 .tseg {
   width: 8px;
@@ -636,11 +664,107 @@
     background-position: center;
     background-size: cover;
   }
+  .center1 {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-top: 36px;
+  }
 }
 @media (min-width: 768px) {
   .bckground2 {
     background: url(./bckground2-1.jpg);
     background-position: center;
     background-size: cover;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 12px;
+  }
+}
+.gap {
+  gap: 12px;
+}
+@media (min-width: 768px) {
+  .zrg1 {
+    background-image: url(./tablet1.jpg);
+  }
+  .link {
+    width: 689px;
+    height: 368px;
+  }
+  .zrg2 {
+    background-image: url(./tablet2.jpg);
+  }
+  .zrg3 {
+    background-image: url(./tablet3.jpg);
+  }
+  .zrg4 {
+    background-image: url(./tablet4.jpg);
+  }
+  .zrg5 {
+    background-image: url(./tablet5.jpg);
+  }
+  .zrg6 {
+    background-image: url(./tablet6.jpg);
+  }
+  .zrg7 {
+    background-image: url(./tablet7.jpg);
+  }
+  .zrg8 {
+    background-image: url(./tablet8.jpg);
+  }
+  .link2 {
+    width: 689px;
+    height: 368px;
+  }
+  .zrg9 {
+    background-image: url(tablet9.jpg);
+  }
+  .zrg10 {
+    background-image: url(./tablet10.jpg);
+  }
+  .background10 {
+    background-color: #6529cf;
+    width: 286px;
+    height: 181px;
+  }
+  .pinkguydiv {
+    display: none;
+  }
+  .imusic {
+    width: 46px;
+    height: 10.84px;
+  }
+
+  .pinkmusic {
+    display: flex;
+    width: 286px;
+    justify-content: end;
+    align-items: end;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 0;
+  }
+  .background {
+    display: none;
+  }
+  .green {
+    width: 286px;
+    height: 181px;
+    background-color: #2a402d;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-right: 15px;
+    padding-bottom: 25px;
+    box-sizing: border-box;
+    background-image: url(./SVG.svg);
+  }
+  .travel {
+    display: none;
   }
 }
