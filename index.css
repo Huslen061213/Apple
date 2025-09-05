@@ -281,6 +281,7 @@
   background-position: center;
   background-size: cover;
 }
+
 .watch {
   width: 121px;
   color: #000;
@@ -583,6 +584,7 @@
 }
 .scroll {
   overflow: scroll;
+  scrollbar-width: none;
 }
 .pnkguysize {
   width: 114px;
@@ -681,8 +683,56 @@
 @media (min-width: 768px) {
   .container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
     gap: 12px;
+  }
+  .stream2 {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 117.647% */
+    letter-spacing: -0.374px;
+    display: flex;
+    text-align: center;
+    width: 79px;
+    height: 20px;
+  }
+  .streambox2 {
+    display: inline-flex;
+    padding: 8px 14px 8px 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 980px;
+    opacity: 0.999;
+    background: #f5f5f7;
+    width: 108px;
+    height: 36px;
+    box-sizing: border-box;
+  }
+  .drama {
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 117.647% */
+  }
+  .ronan {
+    opacity: 0.999;
+    color: #fff;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    width: 401px;
+    height: 40px;
+  }
+  .flydiv2 {
+    display: flex;
+    gap: 18px;
   }
 }
 
@@ -696,6 +746,12 @@
   }
   .zrg2 {
     background-image: url(./tablet2.jpg);
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    box-sizing: border-box;
   }
   .zrg3 {
     background-image: url(./tablet3.jpg);
@@ -827,7 +883,7 @@
   }
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1024px) {
   .font {
     width: 100%;
     height: 28px;
@@ -1070,7 +1126,7 @@
   display: flex;
   gap: 12px;
 }
-@media (max-width: 1919px) {
+@media (max-width: 1023px) {
   .storetextstyle {
     display: none;
   }
@@ -1113,8 +1169,11 @@
   .e {
     display: none;
   }
+  .improve {
+    display: none;
+  }
 }
-@media (min-width: 1920px) {
+@media (min-width: 1024px) {
   .linkcontainer1 {
     display: none;
   }
@@ -1131,6 +1190,7 @@
     display: flex;
     gap: 16px;
     overflow: scroll;
+    scrollbar-width: none;
     width: fit-content;
   }
   .weekend {
@@ -1186,8 +1246,95 @@
     line-height: 18px; /* 128.571% */
     letter-spacing: -0.224px;
   }
-}
-.lastsmallsize {
-  width: 417px;
-  height: 236px;
+  .d {
+    background-image: url(./tatum.png);
+    width: 417px;
+    height: 236px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .e {
+    background-image: url(./fitness.png);
+    width: 417px;
+    height: 236px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .ygaanemegtei {
+    background-image: url(ygaanemegtei.png);
+    width: 417px;
+    height: 236px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .b {
+    background-image: url(./flybckground.jpg);
+    width: 1250px;
+    height: 703px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding-left: 70px;
+    padding-bottom: 68px;
+    box-sizing: border-box;
+  }
+  .stream {
+    color: #000;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 117.647% */
+    letter-spacing: -0.374px;
+  }
+  .streambox {
+    display: inline-flex;
+    padding: 12px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 999px;
+    background: #f5f5f7;
+  }
+  .comedy {
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 117.647% */
+  }
+  .fake {
+    opacity: 0.999;
+    color: #fff;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .flydiv {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .bckgroundsize1 {
+    width: 942px;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+  }
 }
