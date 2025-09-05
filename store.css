@@ -1,0 +1,103 @@
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+* {
+  margin: 0;
+}
+.headermenu {
+  display: flex;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+  background: rgba(245, 245, 247, 0.8);
+}
+.headerapple {
+  background-image: url(./applelogo2.svg);
+  width: 13px;
+  height: 16px;
+  background-position: center;
+  background-size: cover;
+}
+.headertext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+  color: #000;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px; /* 500% */
+  letter-spacing: -0.28px;
+}
+.headersearch {
+  background-image: url(./search.svg);
+  background-position: center;
+  background-size: cover;
+  width: 15px;
+  height: 44px;
+}
+.headershop {
+  background-image: url(./tsunh.svg);
+  background-position: center;
+  background-size: cover;
+  width: 14px;
+  height: 44px;
+}
+.headertextdiv {
+  width: 1024px;
+  display: flex;
+  height: 44px;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+.headersecondtext {
+  color: #1d1d1f;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+.headerseconddiv {
+  display: flex;
+  padding: 20px 0;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  align-self: stretch;
+}
+.blur {
+  background-image: url(./blurbackground.png);
+  height: 75px;
+}
+.rainbow {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 52.01px; /* 118.205% */
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 129px;
+  height: 52px;
+}
+.greytext {
+  color: #6e6e73;
+  font-size: 44px;
+  font-weight: 700;
+  width: 494px;
+  height: 52px;
+}
+.storegift {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
